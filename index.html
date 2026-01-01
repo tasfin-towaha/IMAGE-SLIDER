@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slides">
+          <div class="slide active">
+            <img
+              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=500&fit=crop"
+              alt="Mountains"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=500&fit=crop"
+              alt="Ocean"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=500&fit=crop"
+              alt="Forest"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=500&fit=crop"
+              alt="Nature"
+            />
+          </div>
+        </div>
+
+        <button class="prev-btn">❮</button>
+        <button class="next-btn">❯</button>
+
+        <div class="navigation">
+          <span class="navDot active" data-slide="0"></span>
+          <span class="navDot" data-slide="1"></span>
+          <span class="navDot" data-slide="2"></span>
+          <span class="navDot" data-slide="3"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
